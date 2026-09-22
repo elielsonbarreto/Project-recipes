@@ -1,0 +1,49 @@
+:root{
+    font-family: "Lora", serif;                            /* define a fonte padrão pra toda a página */
+    line-height: 150%;                                         /* define o espaçamento entre linhas */
+    color: #573A37;
+}
+body{
+
+    background-image: url("./assets/fundo.jpg");           /*coloca a imagem de fundo*/
+    background-size: cover;                                /* faz a imagem cobrir toda a tela */
+    background-position: center;                           /* centraliza a imagem */
+    background-repeat: no-repeat;                          /* não repete a imagem */
+    min-height: 100vh;                                     /* faz a imagem cobrir toda a tela */
+}
+#page{
+    box-sizing: border-box;                                  /* tira o padrão da caixa */
+   width: 800px;                                             /* define a largura da caixa */
+   padding: 24px;                                            /* define o espaçamento interno da caixa */
+   background-color: #F0E8C2;                              /* define a cor de fundo da caixa */
+   border-radius: 24px;                                      /* define o arredondamento da caixa */
+   margin: 48px auto;                                        /* centraliza a caixa */
+} 
+
+
+img{
+    border-radius: 16px;                                     /* define o arredondamento da imagem */
+    width: 100%;                                             /* define a largura da imagem */
+}
+    h1 {
+        line-height: 140%;                                         /* define o espaçamento entre linhas */
+        font-size: 40px;                                             /* define o tamanho da fonte */
+    }
+    h2 {
+             font-size: 24px;                                             /* define o tamanho da fonte */
+    }
+
+    h1, h2 {
+        color: #291B1A;                                             /* define a cor da fonte */
+    }
+
+    footer {
+        color: #e1dab7;                                             /* define a cor da fonte */
+        text-align: center;                                          /* centraliza o texto */
+        padding-bottom: 48px;
+       vertical-align: middle;                                       /* centraliza o texto verticalmente */
+    }
+       
+       
+
+
